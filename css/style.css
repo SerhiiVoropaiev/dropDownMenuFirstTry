@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+}
+
+.sublist {
+    display: none;
+}
+
+.extra-sublist {
+    display: none;
+}
+
+.list__link:hover + .sublist {
+    display: block;
+    background-color: skyblue;
+    position: absolute;
+    left: 125px;
+    top: 64px;
+}
+
+.sublist:hover {
+    display: block;
+    background-color: skyblue;
+    position: absolute;
+    left: 125px;
+    top: 64px;
+}
+
+.sublist__link:hover + .extra-sublist {
+    display: block;
+    background-color: skyblue;
+    position: absolute;
+    left: 151px;
+    top: 64px;
+}
+
+.extra-sublist:hover {
+    display: block;
+    background-color: skyblue;
+    position: absolute;
+    left: 151px;
+    top: 64px;
+}
+
+.extra-sublist__link{
+    width: 160px;
+}
